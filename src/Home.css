@@ -1,0 +1,36 @@
+#home-header{
+    /* display:flex;
+    flex-direction: row; */
+    justify-content: space-between; /* This will add space between the flex items */
+    padding: 20px; 
+    align-items:center;
+    background-color: rgb(64, 242, 242);
+    position: sticky;
+    top: 0; 
+    
+}
+
+button {
+    height: 25px; 
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+#main-content{
+    display:flex;
+    background-color: rgb(240, 242, 245);
+    padding-bottom:20px;
+}
+
+#leftnav{
+    width:15%;
+}

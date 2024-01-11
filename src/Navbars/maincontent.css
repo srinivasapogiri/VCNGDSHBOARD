@@ -1,0 +1,92 @@
+
+.left-navbar{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.87);
+    margin:5%;
+    border-radius: 10px;
+    position: sticky;
+    top: 0; 
+   
+}
+
+.left-navbar a {
+    color:white;
+    text-decoration: none;
+    margin:10px;
+}
+.left-navbar h4 {
+    color:rgb(232, 184, 184);
+    margin:10px;
+}
+
+.main-content{
+    display:flex;
+    flex-direction:column;
+    z-index:1
+}
+.card-container{
+    display:flex;
+    flex-direction:row;
+}
+.card {
+    display:flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin:20px;
+    background-color: white;
+    cursor: pointer;
+   flex-direction:column;
+  }
+
+
+
+   .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+#create-events {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  #create-events input label{
+    padding:3px;
+    float:left;
+  }
+  #create-events input{
+    width:250px;
+    margin:0px;
+
+  }
